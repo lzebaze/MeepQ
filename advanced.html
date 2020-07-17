@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>MeepQ Advanced</title>
+        <style>
+            .page {
+                text-align: right;
+            }
+            h1 {
+                color:darkblue;
+                font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                text-align: center;
+            }
+            h2 {
+                color:red;
+                font-family:'Trebuchet MS';
+            }
+            label {
+                color:darkblue;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+            }
+            .box {
+                width: 200px;
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="page">
+            <a href="index.html">Back</a>
+        </div>
+        <h1>MeepQ Advanced Search</h1>
+        <h2>Find Pages with...</h2>
+        <div>
+            <form action="https://google.com/search">
+                <label>all these words:</label>
+                <input class="box" type="text" name="as_q"><br><br>
+                <label>this exact word or phrase:</label>
+                <input class="box" type="text" name="as_epq"><br><br>
+                <label>any of these words:</label>
+                <input class="box" type="text" name="as_oq"><br><br>
+                <label>none of these words:</label>
+                <input class="box" type="text" name="as_eq"><br><br>
+                <input id="button" type="submit" value="Search">
+            </form>
+        </div>
+    </body>
+</html>
